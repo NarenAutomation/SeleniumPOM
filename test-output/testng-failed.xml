@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Hub spot Test Suite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <test name="My Hub spot Test Cases(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.mytests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginPageHeaderTest"/>
+          <include name="teardown"/>
+          <include name="doLoginTest"/>
+        </methods>
+      </class> <!-- com.mytests.LoginTest -->
+    </classes>
+  </test> <!-- My Hub spot Test Cases(failed) -->
+</suite> <!-- Failed suite [My Hub spot Test Suite] -->
